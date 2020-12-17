@@ -1,0 +1,17 @@
+<div class="lista">
+  <mat-selection-list #items>
+    <ng-container *ngFor="let tarea of tareas">
+      <mat-list-option  [value]="tarea.id" (click)="seleccionar(tarea)" [selected]="tarea.hecho">
+        {{ tarea.id }}  {{ tarea.descripcion }} {{ tarea.descripcion2 }} 
+      </mat-list-option>
+      <button mat-fab color="warn" aria-label="delete icon" (click)="eliminar(tarea.id)">
+        <mat-icon>delete</mat-icon>
+      </button>
+      <button mat-fab color="primary" aria-label="edit icon" (click)="actualizar(tarea.id,tarea.descripcion)">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </ng-container>
+  </mat-selection-list>
+<p></p>
+  <p>Postulantes seleccionados: {{ postulantesSeleccionados}}</p>
+</div>

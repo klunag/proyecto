@@ -1,0 +1,7 @@
+<div>
+    <p></p>
+    <button mat-raised-button color="success" (click)="ingresarPostulante()">Ingresar Postulante</button>
+    <app-lista [tareas]="tareas" (eliminarTarea)="eliminarTarea($event)"
+    (actualizarTarea)="actualizarTarea($event)"
+    ></app-lista>
+</div>

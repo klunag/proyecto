@@ -1,0 +1,28 @@
+{
+  "tareas": [
+    {
+      "id": 2887081286,
+      "descripcion": "Gabriela",
+      "descripcion2": "Luna Salvatierra",
+      "hecho": true
+    },
+    {
+      "id": 7412531963,
+      "descripcion": "Rocio",
+      "descripcion2": "Suarez Perez",
+      "hecho": true
+    },
+    {
+      "id": 1724888513,
+      "descripcion": "Angel",
+      "descripcion2": "Bernaldo Bastidas",
+      "hecho": false
+    },
+    {
+      "id": 9808197558,
+      "descripcion": "Karen",
+      "descripcion2": "Luna Gabino",
+      "hecho": false
+    }
+  ]
+}
